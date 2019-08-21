@@ -13,7 +13,7 @@ binding.pry
 end
 
 puts add_element_to_end_of_array(["Sam", "Anthony", "Lance", "Ream"], "Matthew")
-puts add_element_to_end_of_array(["Sam", "Anthony", "Lance", "Ream"], "Alex")
+puts add_element_to_end_of_array([], "Alex")
 def add_element_to_start_of_array(array, element)
 array.unshift(element)
 end
