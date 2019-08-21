@@ -8,6 +8,7 @@ friends = ["Sam", "Anthony", "Lance", "Ream"]
 end
 
 def add_element_to_end_of_array(array, element)
+binding.pry
     array.push(element)
 end
 
